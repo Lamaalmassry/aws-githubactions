@@ -4,9 +4,9 @@ name: Deploy Portfolio
 on:
   push:
     branches: ["main"]
-    #paths-ignore:
+    paths-ignore:
     
-    #  - '.github/workflows/destroy.yml'
+     - '.github/workflows/destroy.yml'
 
 jobs:
   deploy:
