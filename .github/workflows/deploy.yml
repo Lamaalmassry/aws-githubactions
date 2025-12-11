@@ -35,5 +35,5 @@ jobs:
       run: terraform apply -auto-approve
 
     - name: Upload Website Files
-      run: aws s3 sync website/ s3://lama-portfolio-2025-12123/
+      run: aws s3 sync website/ s3://adel-portfolio-2025-12123/
     

@@ -19,7 +19,7 @@ provider "aws" {
 
 
 resource "aws_s3_bucket" "portfolio" {
-  bucket        = "lama-portfolio-2025-12123" 
+  bucket        = "adel-portfolio-2025-12123" 
   force_destroy = true
 }
 
